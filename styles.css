@@ -156,6 +156,7 @@ body{
 	font-family: 'Raleway';
 	margin: 0px auto 15px;
 	width: 78%;
+	max-width: 630px;
 	font-size: 20px;
 	line-height: 28px;
 	color: #1a2238;

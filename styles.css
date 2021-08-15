@@ -192,10 +192,10 @@ body{
 .subcontainabout a:hover{
 	color: #4a5fc1;
 	width: 80px;
-	border-bottom: 3px solid #9daaf2;
+	border-bottom: 3px solid #4a5fc1;
 }
 .skill{
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 	text-align: center;
 	font-family: 'Fugaz One';
 	background-color: #f5f7ff;
@@ -220,7 +220,7 @@ body{
 	min-width: 170px;
 	height: 160px;
 	margin: 25px 15px 25px 15px;
-	box-shadow: 0 7px 9px rgba(0, 0, 0, 0.09);
+	box-shadow: 0 7px 9px rgba(0, 0, 0, 0.1);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -232,7 +232,8 @@ body{
 	border-radius: 12.5px;
 }
 .sk i{
-	color: #4a5fc1;
+/* 	color: #4a5fc1; */
+	color: #9daaf2;
 	font-size: 60px;
 }
 .proj{
@@ -414,7 +415,7 @@ body{
 	bottom: 0;
 	z-index: -10;
 	background-image: linear-gradient(55deg, #9daaf2 30%, #1a2238 75%, #1a2238);
-	padding: 30px;
+	padding: 35px;
 	font-family: 'Raleway';
 	font-size: 18px;
 	font-weight: lighter;
@@ -454,7 +455,7 @@ body{
 		width: 350px;
 	}
 	.subcontainabout a{
-		font-size: 22px;
+		font-size: 25px;
 	}
 	.social .subcontain a:hover{
 		width: 47px;
@@ -462,7 +463,7 @@ body{
 	.prname span{
 		animation: gh 0.95s linear infinite;
 	}
-	.pr6{
+	.pr3, .pr4 {
 		display: none;
 	}
 }
